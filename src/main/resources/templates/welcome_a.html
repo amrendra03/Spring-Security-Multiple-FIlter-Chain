@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome A</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1>Welcome User A</h1>
+      <p>This is a simple Thymeleaf welcome page.</p>
+      <form th:action="@{/a/logout_a}" method="post">
+        <button type="submit" class="btn btn-primary">Logout</button>
+      </form>
+    </div>
+  </body>
+</html>
