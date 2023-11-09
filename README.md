@@ -18,7 +18,25 @@ $ cd Spring-Security-Multiple-Filter-Chain
 3. Build the project using Maven:
 4. $ mvn spring-boot:run
 
-## Important Routes for User A
+## Dependencies
+
+The project utilizes the following important dependencies:
+
+- Spring Boot Starter Thymeleaf 3.1.2
+- Spring Boot Starter Data JPA
+- Spring Boot Starter Security
+- Spring Boot Starter Web
+- Spring Boot DevTools
+- MySQL Connector-J
+- Lombok
+- Spring Boot Starter Test
+- Spring Security Test
+
+Ensure these dependencies are properly configured in your environment before running the project.
+
+
+## Usages
+- Important Routes for User A
 1. `http://localhost:8080/a/login_a`
    ![Login Page A - Google Chrome 11_9_2023 2_01_42 PM](https://github.com/amrendra03/Spring-Security-Multiple-FIlter-Chain/assets/93829160/95202aaa-d2d5-4cde-afcb-de204101d2af)
 
@@ -28,7 +46,7 @@ $ cd Spring-Security-Multiple-Filter-Chain
 3. `http://localhost:8080/a/welcome_a`
    ![Login Page A - Google Chrome 11_9_2023 2_02_03 PM](https://github.com/amrendra03/Spring-Security-Multiple-FIlter-Chain/assets/93829160/113d10b5-3d2e-420e-b6b7-f6cbfd04412c)
 
-## Routes for User B
+- Routes for User B
 
 4. `http://localhost:8080/b/login_b`
     ![Login Page A - Google Chrome 11_9_2023 2_02_22 PM](https://github.com/amrendra03/Spring-Security-Multiple-FIlter-Chain/assets/93829160/7022745e-075c-4610-8009-0f00a81e1272)
